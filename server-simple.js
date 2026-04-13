@@ -17,9 +17,7 @@ app.use(cors({
         'http://localhost:5500',
         'http://127.0.0.1:5500',
         'http://127.0.0.1:5000',
-        // ADD YOUR VERCEL URL HERE AFTER DEPLOYING FRONTEND
-        // Example: 'https://pulse-exe.vercel.app',
-        // This allows ALL vercel.app subdomains:
+        'https://pulse-exe.vercel.app',
         /\.vercel\.app$/
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
